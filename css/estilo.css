@@ -76,3 +76,23 @@ ul li a:hover{
 #cuerpodetalle{
     flex: 60%;
 }
+#bordeimagen{
+    background-color: #d46b68;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    width: 80%;
+    margin: auto;
+}
+img{
+    border-radius: 30px;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#datosdetalle{
+    text-align: justify;
+    padding-top: 40px;
+}
