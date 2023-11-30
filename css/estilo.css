@@ -161,3 +161,7 @@ li img:hover{
     opacity: 60%;
     cursor: pointer;
 }
+#marcodetalle{
+    display: flex;
+    padding: 50%;
+}
