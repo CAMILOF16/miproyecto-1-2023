@@ -14,7 +14,8 @@
 }
 footer{
     width: 100%;
-    
+    display: flex;
+    background-color: #7B9E35
 }
 #cabecera_imagen-_Nombre{
     flex: 30%;
@@ -118,9 +119,45 @@ h1{
     background-size: 28px;
     background-repeat: no-repeat;
     padding: 20px 20px 20px 40px;
+    width: 150px;
     background-position: left 5px center;
 }
 .dicenoboton:hover{
     opacity: 50%;
+    cursor: pointer;
+}
+ul li:last-child{
+    border-right: none;
+}
+#menufooter{
+    flex: 20%;
+}
+#contenidofooter{
+    flex: 40%;
+    text-align: justify;
+}
+#socialfooter{
+    flex: 40%;
+    text-align: center;
+}
+nav a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    color: #550101;
+    font-size: 20px;
+}
+.socialesfooter li{
+    border: none;
+}
+li img{
+    width: 5%;
+    padding: 10px;
+}
+li img:hover{
+    opacity: 60%;
     cursor: pointer;
 }
