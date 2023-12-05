@@ -15,7 +15,7 @@
 footer{
     width: 100%;
     display: flex;
-    background-color: #7B9E35
+    background-color: #7B9E35;
 }
 #cabecera_imagen-_Nombre{
     flex: 30%;

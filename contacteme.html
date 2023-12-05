@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilo.css">
-    
+    <link rel="stylesheet" href="css/contacto.css">
     <title>PS GAME SALE</title>
 </head>
 <body>
@@ -17,40 +17,38 @@
         <div id="cabecera_Menu">
             <ul>
                 <li id="logoinicio"><a href="#">INICIO</a></li>
-                <li><a href="index.html">MIS LIBROS</a></li>
+                <li><a href="#">MIS LIBROS</a></li>
                 <li><a href="#">MI MUSICA</a></li>
                 <li><a href="#">MIS VIDEOS</a></li>
-                <li><a href="contacteme.html">CONTACTENOS</a></li>
+                <li><a href="#">CONTACTENOS</a></li>
                 <li><a href="#">ACERCA DE</a></li>
             </ul>
         </div>
     </div>
     <!--Aqui colocamos el cuerpo del index-->
     <div id="Cuerpo_Contenido">
-        <div id="cuerpoimagen">
-            <div id="bordeimagen">
-                <img src="/img/Recurso 1.png" head="480" width="400">
-            </div>
-        </div>
-        <div id="cuerpodetalle">
-            <h1>Bienvenido</h1>
-            <div id="datosdetalle">
-                <p>! Gracias por la confianza y por sumarte a nuestro proyecto. Con gente como tú lograremos lo que sea!<br>
-                Estamos aquí para apoyarte en todo lo que necesites y para trabajar juntos en la consecución de nuestros objetivos.</p>
-            </div>
-            <div id="botones">
-                <div id="botonfavorito">
-                    <div id="marcofavorito" class="dicenoboton">
-                        Persona Favorita
-                    </div>
-                </div>
-                <div id="botonubicacion">
-                    <div id="marcoubicación" class="dicenoboton">
-                        Mi Ubicaión
-                    </div>
-                </div>
-            </div>
-        </div>
+        <div id="formularioDatos"></div>
+        <fieldset>
+            <legend>Mis Datos</legend>
+            <form>
+                <label>NOMBRE</label>
+                <input type="text" placeholder="INGRESE SU NOPBRE">
+                <label>APELLIDO</label>
+                <input type="text" placeholder="INGRESE SU EDAD">
+                <label>EDAD</label>
+                <input type="number" placeholder="ESCRIBA SU EDAD">
+                <select>
+                    <option value="CBBA">COCHABAMBA</option>
+                    <option value="LPZ">LA PAZ</option>
+                    <option value="STC">SANTA CRUS</option>
+                    <option value="URU">ORURO</option>
+                    <option value="TRJ">TARIJA</option>
+                </select>
+                <label>Decriptión</label>
+                <textarea></textarea>
+                <input type="button" value="INSERTAR">
+            </form>
+        </fieldset>
     </div>
     <!--Aqui colocaremos el pie de la web-->
     <footer>
@@ -63,10 +61,6 @@
             <a href="#">CONTACTENOS</a>
             <a href="#">ACERCA DE</a>
         </nav>
-        </div>
-        <div id="contenidofooter">
-            <p>ESTE CITIO WEB TE DA LA BIENBENIDO A NUSTRA EMPRESA QUE TE OFRECERA UNA GRAN DIBERSIDA DE CONTENIDO<br>
-            Y EN EL CUAL PODRAS COMPRAR NUESTROS PRODUCTOS QUE TE LLEGARAN MUY PRONTO GRACIAS POR ELEGIRNOS</p>
         </div>
         <div id="socialfooter">
             <ul class="socialesfooter">
